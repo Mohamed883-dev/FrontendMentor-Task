@@ -17,7 +17,6 @@
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    display: grid;
 }
 
 /* card and image */
@@ -240,28 +239,3 @@ hr {
     text-decoration: none;
     color: var(--main-color5);
 }
-
-/* mobile design */
-@media (max-width :540px) {
-    h1{
-        margin-top: 2rem;
-        
-    
-    }
-    .Container {
-        width: 375;
-        margin: 0;
-        padding: 0;
-    }
-
-    .Container .image {
-        padding: 0;
-        border-radius: 0;
-    }
-
-    .Container .image img {
-        border-radius: 0;
-    }
-}
-
-/* mobile design */
